@@ -40,6 +40,8 @@ Or use the provided batch file (Windows):
 start.bat
 ```
 
+**Note**: The server uses streamable-http transport mode for MCP communication.
+
 ## Usage
 
 ### As MCP Tool
@@ -95,7 +97,8 @@ When submitting to ModelScope MCP广场, use the following configuration:
       ],
       "env": {
         "PYTHONPATH": "."
-      }
+      },
+      "transport": "streamable-http"
     }
   }
 }
