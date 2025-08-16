@@ -18,8 +18,9 @@
   ],
   "mcp": {
     "server": {
-      "command": "python",
+      "command": "uvx",
       "args": [
+        "python",
         "github_issue_parser.py"
       ],
       "env": {

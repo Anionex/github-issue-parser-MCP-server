@@ -91,8 +91,9 @@ When submitting to ModelScope MCP广场, use the following configuration:
   "license": "MIT",
   "mcp": {
     "server": {
-      "command": "python",
+      "command": "uvx",
       "args": [
+        "python",
         "github_issue_parser.py"
       ],
       "env": {
