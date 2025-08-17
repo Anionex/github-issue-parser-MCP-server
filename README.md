@@ -17,7 +17,15 @@ A Model Context Protocol (MCP) server that parses GitHub issues and returns form
 - Python 3.8 or higher
 - uv package manager (recommended) or pip
 
-### Local Setup
+### Installation
+
+#### From PyPI (recommended)
+
+```bash
+pip install github-issue-parser-mcp
+```
+
+#### Local Setup
 
 1. Clone the repository:
 ```bash
@@ -31,8 +39,15 @@ pip install -r requirements.txt
 ```
 
 3. Run the server:
+
+For locally installed version:
 ```bash
 python github_issue_parser.py
+```
+
+For PyPI installed version:
+```bash
+python -m github_issue_parser_mcp
 ```
 
 Or use the provided batch file (Windows):
