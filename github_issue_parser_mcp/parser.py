@@ -283,5 +283,4 @@ def analyze_github_issue(issue_url: str, analysis_type: str = "summary") -> str:
 
 
 def run_server():
-    """Run the MCP server with streamable-http transport."""
-    mcp.run(transport="streamable-http")
+    mcp.run(transport="stdio")

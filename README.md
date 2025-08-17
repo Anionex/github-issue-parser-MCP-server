@@ -19,10 +19,15 @@ A Model Context Protocol (MCP) server that parses GitHub issues and returns form
 
 ### Installation
 
+#### using with uvx
+```bash
+uvx --from github-issue-parser-mcp github-issue-parser
+```
+
 #### From PyPI (recommended)
 
 ```bash
-pip install github-issue-parser-mcp
+pip install github-issue-parser-mcp --extra-index-url https://pypi.org/simple/
 ```
 
 #### Local Setup
@@ -137,6 +142,15 @@ The service doesn't require any special environment variables for basic usage. H
 - fastmcp>=0.1.0
 - requests>=2.28.0
 - beautifulsoup4>=4.11.0
+
+## build
+```bash
+python -m build
+```
+
+```bash
+python -m twine upload dist/*
+```
 
 ## API Endpoints
 

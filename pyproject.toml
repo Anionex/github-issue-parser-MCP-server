@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "github-issue-parser-mcp"
-version = "1.0.0"
+version = "2.0.0"
 authors = [
     {name = "Anionex", email = "your.email@example.com"},
 ]
